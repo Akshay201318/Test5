@@ -1,11 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://engineer:engineer54321@cluster0.v1spv.mongodb.net/<dbname>?retryWrites=true&w=majority',
-{
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true
-});
+mongoose.connect('mongodb://localhost/Test5');
 
 const db = mongoose.connection;
 
